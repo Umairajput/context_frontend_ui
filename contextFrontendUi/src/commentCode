@@ -1,0 +1,194 @@
+// import * as React from 'react';
+// import Box from '@mui/material/Box';
+// import Drawer from '@mui/material/Drawer';
+// import Button from '@mui/material/Button';
+// import List from '@mui/material/List';
+// import Divider from '@mui/material/Divider';
+// import ListItem from '@mui/material/ListItem';
+// import ListItemButton from '@mui/material/ListItemButton';
+// import ListItemIcon from '@mui/material/ListItemIcon';
+// import ListItemText from '@mui/material/ListItemText';
+// import { AppstoreOutlined } from '@ant-design/icons'
+// import { HomeOutlined, ChromeOutlined, DoubleRightOutlined, DatabaseOutlined, LineChartOutlined, DeploymentUnitOutlined, ApartmentOutlined, FileDoneOutlined } from '@ant-design/icons'
+// import './App.css'
+// import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
+// import AcUnitOutlinedIcon from '@mui/icons-material/AcUnitOutlined';
+// import AutoAwesomeMotionOutlinedIcon from '@mui/icons-material/AutoAwesomeMotionOutlined';
+// import Uploader from './drag';
+// import logo from '../accerts/image/logo.png'
+// export default function TemporaryDrawer() {
+//   const [state, setState] = React.useState({ left: false, });
+
+//   const toggleDrawer = (anchor, open) => (event) => {
+//     if ((event.key === 'Shift')) {
+//       return;
+//     }
+//     setState({ ...state, [anchor]: open });
+//   };
+//   const closetoggleDrawer = (anchor, close) => (event) => {
+//     setState({ ...state, [anchor]: close })
+//   }
+//   const data = [
+//     {    
+//       title: 'Dashboard',
+//       icon: <AppstoreOutlined />
+//     },
+//     {
+//       title: 'Home',
+//       icon: <HomeOutlined />
+//     },
+//     {
+//       title: 'Analytics',
+//       icon: <ChromeOutlined />
+//     },
+//     {
+//       title: 'Data',
+//       icon: <DatabaseOutlined />
+//     },
+//     {
+//       title: 'Flow Designer',
+//       icon: <AutoAwesomeMotionOutlinedIcon />
+//     },
+//     {
+//       title: 'Graph',
+//       icon: <LineChartOutlined />
+//     },
+//     {
+//       title: 'Project Alerts',
+//       icon: <DeploymentUnitOutlined />
+//     },
+
+//     {
+//       title: 'Project Activities',
+//       icon: <AcUnitOutlinedIcon />
+//     },
+
+//     {
+//       title: 'Project Workflow',
+//       icon: <ApartmentOutlined />
+//     },
+//     {
+//       title: 'Web Archivees',
+//       icon: <FileDoneOutlined />
+//     }
+//   ]
+
+//   const list = (anchor) => (
+//     <Box
+//       className='list'
+//       sx={{ width: anchor === 'top' || anchor === 'bottom' ? 'auto' : 230 }}
+//       role="presentation"
+//     >
+//       <br />
+//       <List >
+//         {
+//           data.map((v, i) => {
+//             return (
+//               <ListItem className='text'>
+//                 <ListItemButton>
+//                   <ListItemIcon className='icon'>
+//                     {v.icon}
+//                   </ListItemIcon>
+//                   <ListItemText className='title' primary={v.title} />
+//                 </ListItemButton>
+//               </ListItem>
+//             )
+//           })
+//         }
+//       </List>
+//         <span onClick={closetoggleDrawer(anchor, false)} className='close'><DoubleRightOutlined /></span>
+
+//       <Divider />
+//     </Box>
+//   );
+
+//   return (
+//     <div>
+//       {['left'].map((anchor) => (
+//         <React.Fragment key={anchor}>
+//           <Button onClick={toggleDrawer(anchor, true)}><MenuOutlinedIcon style={{color:'white'}}/></Button>
+//           <Drawer
+//             anchor={anchor}
+//             open={state[anchor]}
+//           >
+//             <div className='img_div'>
+//             <img className='img' src={logo} />
+//             </div>
+
+//             {list(anchor)}
+//           </Drawer>
+//         </React.Fragment>
+//       ))}
+//       <Uploader />
+//     </div>
+//   );
+// }
+
+
+
+//CSS
+
+
+/* .text:focus {
+    background-color: var(--color2);
+}
+
+.list {
+    color: var(--color);
+} */
+
+/* .list {
+    background-color: var(--backgroundcolor);
+} */
+
+/* .close {
+    padding: 0px 0px 0px 20px;
+    background-color: var(--bgColor);
+    color: var(--color);
+    margin-top: 10px !important;
+    margin-left: 180px;
+    cursor: pointer;
+    color: var(--color3);
+} */
+
+/* .css-cveggr-MuiListItemIcon-root {
+    font-size: large !important;
+    color: var(--color) !important;
+    min-width: 35px !important;
+} */
+/* 
+.css-h4y409-MuiList-root {
+    margin-top: -10px !important;
+} */
+
+/* .css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root:focus {
+    background-color: var(--color2) !important;
+    border-radius: 10px;
+} */
+
+
+///* td {
+    padding: 5px 12px;
+}
+
+table {
+    margin: 0px 0px;
+} */
+
+/* .div {
+    margin: 20px -25px;
+    padding: 14px;
+    width: 258px;
+    height: 268px;
+    border: 2px solid var(--white);
+    border-radius: 10px;
+}
+
+.cards {
+    margin: 20px -25px;
+    height: 322px;
+    border: 2px solid var(--white);
+    border-radius: 10px;
+    color: var(--white);
+    width: 255px;
+} */

@@ -1,0 +1,905 @@
+:root {
+    --bgColor: #12131a;
+    --color: rgba(255, 255, 255, 0.619);
+    --color2: #5494a3;
+    --color3: white;
+    --backgroundcolor: #1c1c25;
+    --black: black;
+    --background: #12131a;
+    --white: white;
+    --card_side_color: #beb9b9;
+    --aqua: aqua;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    color: var(--white) !important;
+}
+
+body {
+    background-color: #12131a;
+}
+
+.ant-upload.ant-upload-select-picture-card {
+    width: auto !important;
+    border: 1px solid var(--bgColor) !important;
+    background-color: var(--bgColor) !important;
+}
+
+body {
+    background-color: var(--bgColor) !important;
+}
+
+.ant-upload.ant-upload-select-picture-card,
+.ant-upload {
+    width: auto;
+    color: var(--color3) !important;
+}
+
+.uploader {
+    text-align: center;
+}
+
+.img {
+    height: auto;
+    width: 170px;
+    margin-top: -30px;
+    margin-left: -20px;
+}
+
+.bar_side {
+    width: 150px;
+}
+
+.img_div {
+    background-color: var(--backgroundcolor);
+}
+
+.plus {
+    font-size: 35px !important;
+}
+
+.ant-upload-list-item-name,
+.anticon-eye,
+.ant-btn,
+.ant-tooltip-arrow,
+.ant-tooltip-inner {
+    display: none;
+}
+
+.ant {
+    background-color: var(--bgColor);
+    color: var(--color3);
+    padding: 7px 25px;
+    border: 1px solid var(--color3);
+    border-radius: 5px;
+}
+
+.ant-upload-text {
+    margin-top: -30px;
+}
+
+.sm_btn {
+    border-radius: 2px;
+    background-color: #5494a3;
+    height: 8px;
+    width: 8px;
+    margin-right: 10px;
+    border: none;
+}
+
+.sm_btn_time {
+    border-radius: 2px;
+    background-color: #5494a3;
+    height: 8px;
+    width: 8px;
+    margin-right: 40px;
+    border: none;
+}
+
+.ant-upload-drag-container,
+.ant-upload-btn,
+.ant-upload-drag {
+    width: 300px !important;
+    text-align: center !important;
+    display: block;
+    margin: auto;
+}
+
+.buttn {
+    display: block;
+    background-color: var(--backgroundcolor);
+}
+
+.ant-btn-primary:focus {
+    background-color: var(--backgroundcolor);
+    border: 1px solid var(--backgroundcolor);
+
+}
+
+.ant-btn-primary {
+    border: 1px solid var(--backgroundcolor);
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.ant-menu {
+    background-color: var(--backgroundcolor) !important;
+}
+
+.ant-upload.ant-upload-drag .ant-upload-btn {
+    background-color: var(--bgColor);
+}
+
+.ant-upload-text {
+    color: var(--color3) !important;
+}
+
+.ant-upload.ant-upload-drag {
+    border: 1px solid var(--bgColor) !important;
+}
+
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    width: auto;
+    color: var(--color2);
+    border-radius: 10px;
+}
+
+.css-6hp17o-MuiList-root-MuiMenu-list {
+    background-color: var(--color2) !important;
+}
+
+.ant-menu-item-only-child:focus {
+    background-color: var(--backgroundcolor) !important;
+}
+
+.ant-menu-item-only-child:active {
+    background-color: var(--backgroundcolor) !important;
+}
+
+.side_bar {
+    margin-top: -230px;
+    height: 100vh;
+    background-color: var(--backgroundcolor);
+}
+
+.second_drag {
+    display: none;
+}
+
+.div_cards {
+    margin-left: 10%;
+}
+
+.css-hyum1k-MuiToolbar-root {
+    padding-left: 85px !important;
+}
+
+
+.ant-upload.ant-upload-drag .ant-upload {
+    padding-left: 90px;
+}
+
+/* Rehan work  */
+
+.abcd .css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper {
+    background-color: var(--color2) !important;
+}
+
+.paragraph {
+    color: var(--color2) !important;
+    font-size: 10px;
+    margin-left: 50px;
+    position: relative;
+    bottom: 10px;
+}
+
+.css-8793an {
+    position: relative;
+    border-radius: 5px;
+    background-color: var(--background);
+    margin-right: -2px !important;
+    margin-left: 10px !important;
+    width: auto;
+}
+
+.css-1f5y6oa-MuiButtonBase-root-MuiIconButton-root {
+    padding: 0px !important;
+}
+
+.name {
+    margin-left: 50px;
+    font-size: 15px;
+
+}
+
+.MuiToolbar-root,
+.MuiToolbar-gutters,
+.MuiToolbar-regular,
+.css-hyum1k-MuiToolbar-root {
+    background-color: var(--backgroundcolor);
+    height: 80px;
+    padding-left: -9px;
+}
+
+.MuiInputBase-input,
+.css-yz9k0d-MuiInputBase-input {
+    padding-left: 200px;
+    background-color: var(--color2);
+}
+
+
+
+.notification {
+    padding-right: 10px;
+    height: 30px;
+    padding-bottom: 20px;
+    width: 50px;
+    border-radius: 20px;
+    background-color: #5494a3;
+}
+
+.notification_icon {
+    /* background-color: aqua; */
+    margin-top: 5px;
+}
+
+.css-fvc8ir-MuiBadge-badge {
+    margin-top: 11px;
+    margin-right: -4px;
+}
+
+.css-ptiqhd-MuiSvgIcon-root {
+    margin-bottom: 20px;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+    font-size: 22px !important;
+}
+
+.css-7hnt3q {
+    margin-left: 150px !important;
+    width: 88vh !important;
+}
+
+.badge {
+    margin-left: 30px;
+    border-radius: 2px;
+    width: 5px;
+}
+
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+    width: auto !important;
+}
+
+.side_bar {
+    position: fixed;
+}
+
+/*Umair Work*/
+
+:root {
+    --background-color: #12131a;
+    --white: white
+}
+
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+    background-color: var(--backgroundcolor) !important;
+}
+
+
+.card_div {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+}
+
+.card_container {
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.inner_card1 {
+    color: var(--white);
+    border: 2px solid var(--white);
+    width: 20%;
+    height: 190px;
+    border-radius: 10px;
+    padding: 15px 0px;
+}
+
+.inner_card2 {
+    color: var(--white);
+    border: 2px solid var(--white);
+    width: 20%;
+    height: 190px;
+    border-radius: 10px;
+    padding: 15px 0px;
+}
+
+.inner_card3 {
+    border: 2px solid var(--white);
+    width: 20%;
+    height: 190px;
+    border-radius: 10px;
+    padding: 15px 0px;
+}
+
+.graph_cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.tr {
+    color: blue;
+}
+
+td {
+    padding: 5px 20px;
+}
+
+.div {
+    margin: 30px 20px;
+    padding: 20px;
+    width: 30% !important;
+    height: 250px;
+    border: 2px solid var(--white);
+    border-radius: 10px;
+}
+
+.cards {
+    margin: 30px 20px;
+    width: 30% !important;
+    height: auto;
+    border: 2px solid var(--white);
+    border-radius: 10px;
+    color: var(--white);
+    padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 1115px) {
+    .div {
+        width: 50% !important;
+    }
+
+    .cards {
+        width: 45% !important;
+    }
+}
+
+@media only screen and (max-width: 998px) {
+    .div {
+        width: 60% !important;
+    }
+
+    .cards {
+        width: 60% !important;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    .div {
+        width: 80% !important;
+    }
+
+    .cards {
+        width: 80% !important;
+    }
+}
+
+@media only screen and (max-width: 498px) {
+    .div {
+        width: 85% !important;
+    }
+
+    .cards {
+        width: 85% !important;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .div {
+        width: 90% !important;
+        margin: 30px 10px;
+    }
+
+    .cards {
+        width: 90% !important;
+        margin: 30px 10px;
+    }
+
+    td {
+        padding: 3px 15px;
+    }
+}
+
+@media only screen and (max-width: 410px) {
+    .div {
+        width: 95% !important;
+        margin: 30px 0px;
+    }
+
+    .cards {
+        width: 95% !important;
+        margin: 30px 0px;
+    }
+}
+
+.graph_cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.MuiTypography-root,
+.MuiTypography-h6,
+.MuiTypography-noWrap,
+.css-1futezt-MuiTypography-root {
+    margin-left: 30px !important;
+}
+
+.inner_graph_container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.activity_div {
+    width: 50%;
+}
+
+.activity_head {
+    color: var(--black) !important;
+    display: block;
+}
+
+.activity {
+    color: var(--black) !important;
+}
+
+.activity_h {
+    color: var(--black) !important;
+    display: inline;
+}
+
+.spans_div {
+    width: 50%;
+    margin-left: 10px;
+}
+
+.sky_blue {
+    background-color: var(--aqua);
+    height: 20px;
+    width: 20%;
+    border: none;
+    margin: 0px 2px;
+}
+
+.blue {
+    background-color: rgb(130, 130, 192);
+    height: 50px;
+    width: 20%;
+    border: none;
+    margin: 0px 2px;
+}
+
+.orange {
+    background-color: orange;
+    height: 30px;
+    width: 20%;
+    border: none;
+    margin: 0px 2px;
+}
+
+
+.table {
+    margin: 0px auto;
+    text-align: center;
+    font-size: 15px;
+    color: grey;
+    width: 95%;
+}
+
+.ant-progress-inner {
+    width: 85px !important;
+}
+
+.ant-progress-circle .ant-progress-text {
+    top: 35% !important;
+}
+
+.btn {
+    height: 30px;
+    width: 100px;
+    border: none;
+    color: var(--white);
+    font-size: 10px;
+    background-color: rgb(53, 51, 51);
+    border-radius: 5px;
+}
+
+.apexcharts-tooltip.apexcharts-theme-light,
+.apexcharts-tooltip-title,
+.apexcharts-xaxistooltip,
+.apexcharts-xaxistooltip-text {
+    border: 2px solid var(--card_side_color) !important;
+    background-color: var(--color2) !important;
+}
+
+.apexcharts-menu-open {
+    background-color: var(--color2) !important;
+}
+
+.apexcharts-menu {
+    border-radius: 7px;
+}
+
+.heading {
+    margin-left: 20px;
+}
+
+.percentage_div {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.fa {
+    margin-left: 5px !important;
+    color: var(--color2) !important;
+}
+
+.percentage {
+    color: var(--color2) !important;
+    font-size: 15px;
+    display: inline;
+}
+
+.center_div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.graph_div {
+    height: 150px;
+}
+
+.ant-progress-text {
+    width: 50% !important;
+}
+
+.margin {
+    margin-left: 82px;
+}
+
+.graph_heading {
+    margin-left: 20px;
+}
+
+.ant-pagination,
+.ant-table-pagination,
+.ant-table-pagination-rightt {
+    display: none;
+}
+
+.css-hyum1k-MuiToolbar-root {
+    padding-left: -9px;
+}
+
+th {
+    color: var(--color2) !important;
+}
+
+.cards_inner_div {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.input_div {
+    margin-top: 5px;
+}
+
+tbody {
+    border-top: 2px solid var(--color2) !important;
+}
+
+input {
+    width: 120px;
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid var(--white);
+    height: 20px;
+    padding-left: 10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+input::placeholder {
+    padding-left: 10px;
+    color: var(--white);
+}
+
+.siderMain_div {
+    display: flex;
+}
+
+.Apex_chart_div {
+    width: 30%;
+    border: 2px solid var(--white);
+    height: 190px !important;
+    border-radius: 10px;
+}
+
+.chart_graph {
+    width: 50%;
+    height: 186px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background-color: var(--card_side_color);
+}
+
+#chart {
+    display: flex;
+    width: 100%;
+}
+
+.chart_graph_text {
+    padding: 5px;
+}
+
+.weeks_data {
+    display: flex;
+}
+
+.weekly {
+    color: var(--black) !important;
+}
+
+.this_week,
+.last_week {
+    color: rgb(73, 64, 64) !important;
+    font-size: 8px;
+    padding-right: 10px;
+}
+
+.week_percentage {
+    color: var(--black) !important;
+    font-size: 10px !important;
+    font-weight: bolder;
+}
+
+.Show_chart_form {
+    color: rgb(73, 64, 64) !important;
+    font-size: 8px;
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+}
+
+.button_div {
+    display: flex;
+    margin-top: -15px;
+}
+
+.ant-upload-list-picture-card-container {
+    display: none;
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 1050px) {
+    .heading {
+        margin-left: 15% !important;
+    }
+
+    .card_container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .inner_card1 {
+        width: 46% !important;
+    }
+
+    .inner_card2 {
+        width: 46% !important;
+    }
+
+    .inner_card3 {
+        width: 46% !important;
+        margin-top: 50px !important;
+    }
+
+    .Apex_chart_div {
+        width: 46% !important;
+        margin-top: 50px !important;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    .css-hyum1k-MuiToolbar-root {
+        width: 97%;
+    }
+}
+
+@media only screen and (max-width:670px) {
+    .side_bar {
+        margin-top: -160px;
+        position: fixed;
+    }
+
+    .ant-upload-drag-container,
+    .ant-upload-btn,
+    .ant-upload-drag {
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .css-1pz7awu-MuiButtonBase-root-MuiIconButton-root {
+        padding: 0px !important;
+    }
+
+    .ant-upload.ant-upload-drag {
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .drag_container {
+        display: none;
+    }
+
+    .img {
+        width: 110px;
+        margin-left: -8px;
+    }
+
+    .bar_side {
+        width: 110px;
+    }
+
+    .second_drag {
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    .heading {
+        margin-left: 15% !important;
+    }
+
+    .card_container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .inner_card1 {
+        width: 80% !important;
+        display: block !important;
+    }
+
+    .inner_card2 {
+        width: 80% !important;
+        margin-top: 50px !important;
+    }
+
+    .inner_card3 {
+        width: 80% !important;
+        margin-top: 50px !important;
+    }
+
+    .Apex_chart_div {
+        width: 80% !important;
+        margin-top: 50px !important;
+    }
+}
+
+/* @media screen and (max-width: 600px) {
+    .cards {
+        width: 100%;
+    }
+} */
+
+
+@media screen and (max-width: 470px) {
+    .inner_card1 {
+        width: 100%;
+    }
+
+    .inner_card2 {
+        width: 100%;
+    }
+
+    .inner_card3 {
+        width: 100%;
+    }
+
+    .chart {
+        background-color: var(--aqua);
+
+    }
+}
+
+/* @media screen and (max-width: 448px) {
+    .div {
+        width: 300px !important;
+        margin: 30px 0px !important;
+    }
+
+    .cards {
+        width: 300px !important;
+        margin: 30px 0px !important;
+        height: auto;
+    }
+
+    p {
+        margin: 0px;
+    }
+} */
+
+/* @media screen and (max-width: 406px) {
+    .div {
+        width: 98% !important;
+        margin: auto !important;
+    }
+
+    .cards {
+        width: 98% !important;
+        margin: auto !important;
+        height: auto;
+    }
+} */
+
+@media screen and (max-width: 391px) {
+    .div_cards {
+        margin-left: 70px;
+    }
+
+    .apexcharts-canvas .apexcharts-element-hidden {
+        display: none;
+    }
+
+    .css-6hp17o-MuiList-root-MuiMenu-list {
+        color: #12131a !important;
+    }
+
+    .inner_card1,
+    .inner_card2,
+    .inner_card3,
+    .Apex_chart_div {
+        margin: 9px 0px !important;
+        width: 95% !important;
+    }
+
+    .graph_cards {
+        margin: 0%;
+    }
+
+    .spans_div {
+        display: none;
+    }
+
+    td {
+        padding: 3px 4px !important;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .css-hyum1k-MuiToolbar-root {
+        width: auto !important;
+    }
+}
